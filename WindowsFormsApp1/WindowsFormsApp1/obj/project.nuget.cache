@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cNXRTWQHZbaifrypLrsQC7DZH2iFfyXiY3Ru1IjAg+j8fJM8hjjwijqXoW3YTteQ8YX3d2nbF77Jei7LKUUJAg==",
+  "dgSpecHash": "84ugzbrkE+PYxefU9n9+iIAqmnEekTKsWMZbigj/qAmwKYkocv7eFEJ/CimxmCJbFSpzLXLEnyzTHwXQXemnJA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mehmet.osmancik\\OneDrive - Cognizant\\Documents\\MEZO\\WindowsFormsApp1\\WindowsFormsApp1\\WindowsFormsApp1\\WindowsFormsApp1.csproj",
+  "projectFilePath": "C:\\Users\\mehmet.osmancik\\Desktop\\MEZO\\mouse-jiggler\\WindowsFormsApp1\\WindowsFormsApp1\\WindowsFormsApp1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mehmet.osmancik\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.22\\microsoft.netcore.app.host.win-x64.3.1.22.nupkg.sha512",
     "C:\\Users\\mehmet.osmancik\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
