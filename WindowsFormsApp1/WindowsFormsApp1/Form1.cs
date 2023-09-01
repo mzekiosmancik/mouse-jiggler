@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -72,8 +72,8 @@ namespace WindowsFormsApp1
                         moveUp = 2;
                         break;
                 }
-                // pt.Y += moveUp;
-                //System.Windows.Forms.Cursor.Position = pt;
+                 pt.Y += moveUp;
+                System.Windows.Forms.Cursor.Position = pt;
                 mouse_event(MOUSEEVENTF_MOVE, 0, moveUp, 0, UIntPtr.Zero);
                
 
@@ -85,7 +85,8 @@ namespace WindowsFormsApp1
 
         [DllImport("user32.dll")]
         static extern void mouse_event(Int32 dwFlags, Int32 dx, Int32 dy, Int32 dwData, UIntPtr dwExtraInfo);
-        private const int MOUSEEVENTF_MOVE = 0x0001;
+        //private const int MOUSEEVENTF_MOVE = 0x0001;
+        private const int MOUSEEVENTF_MOVE = 01;
 
         private void Form1_Load(object sender, EventArgs e)
         {
