@@ -41,7 +41,7 @@ namespace WindowsFormsApp1
         }
 
         private void DoTheJiggle()
-        {   
+        {
             while (doJiggle)
             {
                 jiggleCount++;
@@ -49,7 +49,7 @@ namespace WindowsFormsApp1
                 {
                     label3.Text = Convert.ToString(jiggleCount);
                 }));
-                
+
                 System.Drawing.Point pt = System.Windows.Forms.Cursor.Position;
                 int moveUp = 0;
                 Random rnd = new Random();
@@ -72,12 +72,12 @@ namespace WindowsFormsApp1
                         moveUp = 2;
                         break;
                 }
-                // pt.Y += moveUp;
-                //System.Windows.Forms.Cursor.Position = pt;
+                pt.Y += moveUp;
+                System.Windows.Forms.Cursor.Position = pt;
                 mouse_event(MOUSEEVENTF_MOVE, 0, moveUp, 0, UIntPtr.Zero);
-               
 
-                System.Threading.Thread.Sleep(Convert.ToInt32(minute)*   // minutes to sleep
+
+                System.Threading.Thread.Sleep(Convert.ToInt32(minute) *   // minutes to sleep
                                               60 *   // seconds to a minute
                                               1000);
             }
@@ -85,7 +85,8 @@ namespace WindowsFormsApp1
 
         [DllImport("user32.dll")]
         static extern void mouse_event(Int32 dwFlags, Int32 dx, Int32 dy, Int32 dwData, UIntPtr dwExtraInfo);
-        private const int MOUSEEVENTF_MOVE = 0x0001;
+        //private const int MOUSEEVENTF_MOVE = 0x0001;
+        private const int MOUSEEVENTF_MOVE = 01;
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -98,6 +99,6 @@ namespace WindowsFormsApp1
         }
 
     }
-    
+
 
 }

@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\mehmet.osmancik\\.nuget\\packages\\": {}
+    "C:\\Users\\956775\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mehmet.osmancik\\Desktop\\MEZO\\mouse-jiggler\\WindowsFormsApp1\\WindowsFormsApp1\\WindowsFormsApp1.csproj",
+      "projectUniqueName": "C:\\MEZO\\Repos\\mouse-jiggler\\WindowsFormsApp1\\WindowsFormsApp1\\WindowsFormsApp1.csproj",
       "projectName": "WindowsFormsApp1",
-      "projectPath": "C:\\Users\\mehmet.osmancik\\Desktop\\MEZO\\mouse-jiggler\\WindowsFormsApp1\\WindowsFormsApp1\\WindowsFormsApp1.csproj",
-      "packagesPath": "C:\\Users\\mehmet.osmancik\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mehmet.osmancik\\Desktop\\MEZO\\mouse-jiggler\\WindowsFormsApp1\\WindowsFormsApp1\\obj\\",
+      "projectPath": "C:\\MEZO\\Repos\\mouse-jiggler\\WindowsFormsApp1\\WindowsFormsApp1\\WindowsFormsApp1.csproj",
+      "packagesPath": "C:\\Users\\956775\\.nuget\\packages\\",
+      "outputPath": "C:\\MEZO\\Repos\\mouse-jiggler\\WindowsFormsApp1\\WindowsFormsApp1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\mehmet.osmancik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\956775\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -51,28 +51,11 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[3.1.10, 3.1.10]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[3.1.22, 3.1.22]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[3.1.0, 3.1.0]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[3.1.0, 3.1.0]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
@@ -81,7 +64,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
